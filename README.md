@@ -1,12 +1,10 @@
-# ML_simple_linear_model
+# ML_support_vector_regression_model
 
-This script displays the results of a simple linear regression model applied to data that includes year of experience and salary information.
-I split the data into training and test sets and used the Training set to train the Simple Linear Regression model. A single prediction was made as an example, and the training and test sets were visualized.
+This script displays the results of a support vector Regression_model applied to data that includes position level and salary information. I trained the SVR model on the whole dataset with Gaussian (radial basis function) kernel because we only have a little amount of data.Test store was calculated. On the same data set, Finally, I plotted the regression model  in higher resolution.
 
 ## Install Requirements
 
 ```bash
 $ pip install -r requirement.txt
 ```
-![model's output](./training_set.png)
-![model's output](./test_set.png)
+![model's output](./output.png)
